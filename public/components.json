@@ -1,0 +1,58 @@
+{
+	"components": [
+		{
+			"id": "1",
+			"name": "container",
+			"props": [
+				{
+					"backgroundColor": "red"
+				}
+			],
+			"children": [
+				{
+					"id": "1.0",
+					"name": "text",
+					"props": [
+						{
+							"content": "<h1>Esse é um titulo!</h1>"
+						}
+					]
+				},
+				{
+					"id": "1.1",
+					"name": "block",
+					"props": [
+						{
+							"css": [
+								{
+									"backgroundColor": "#fff",
+									"outline": "1px solid red"
+								}
+							]
+						}
+					],
+					"children": [
+						{
+							"id": "1.1.0",
+							"name": "text",
+							"props": [
+								{
+									"content": "Welcome to the example"
+								}
+							]
+						},
+						{
+							"id": "1.1.1",
+							"name": "text",
+							"props": [
+								{
+									"content": "of dynamic component rendering"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}
